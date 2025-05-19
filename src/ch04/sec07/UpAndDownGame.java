@@ -23,7 +23,7 @@ public class UpAndDownGame {
                 System.out.println("UP!");
             } else {
                 System.out.println("정답!");
-                break;
+                break; // break를 감싸고 있는 가장 가까운 반복문을 빠져나온다.
             }
         }
     }
