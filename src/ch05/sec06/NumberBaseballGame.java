@@ -24,7 +24,7 @@ public class NumberBaseballGame {
             System.out.printf("숫자 %d개를 입력 > ", answerArr.length);
             String input = scanner.nextLine();
             //System.out.println("input: " + input);
-            String[] inputStrArr = input.split(" ");
+            String[] inputStrArr = input.split("");
             if (inputStrArr.length != answerArr.length) {
                 continue;
             }
